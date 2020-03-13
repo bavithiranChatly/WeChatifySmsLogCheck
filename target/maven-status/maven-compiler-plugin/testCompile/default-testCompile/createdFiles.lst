@@ -1,0 +1,6 @@
+automation\steps\SMSsfSteps.class
+automation\steps\CommonSteps.class
+automation\pages\CommonPage.class
+automation\runners\SMSsflogRunner.class
+automation\pages\SMSsfPage.class
+automation\runners\CommonRunners.class

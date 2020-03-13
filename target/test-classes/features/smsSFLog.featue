@@ -1,0 +1,16 @@
+Feature: SMS Log comparision between Wechatify and Salesforce DE
+
+  @auto
+  Scenario: Login into Salesforce
+    When Launch the application "SF" in "chrome"
+    When User Login using the credential
+
+  @auto
+  Scenario Outline: Log comparision between Wechatify and Salesforce DE
+     Then select "Audience" from the parent menu
+     Then select "Contact Builder" from the child menu 
+    
+
+    Examples: 
+      | name  | value |
+      | name1 |     5 |
